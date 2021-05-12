@@ -1,0 +1,65 @@
+.self-introduction img {
+    display: block;
+    margin: 10px auto;
+}
+
+.administrator-name {
+    text-align: center;
+}
+
+.text {
+    text-indent: 1em;
+}
+
+.data {
+    text-align: center;
+}
+
+.self-links {
+    text-align: center;
+}
+
+.self-links .twitter {
+    text-indent: 0;
+}
+
+.twitter a {
+    text-align: center;
+    color: #3cc1ff;
+}
+
+.twitter a:hover {
+    color: #2e95c5;
+}
+
+.pixiv a {
+    color: #37ffe4;
+}
+
+.pixiv a:hover {
+    color: #2abeab;
+}
+
+.note a {
+    color: #5eff6b;
+}
+
+.note a:hover {
+    color: #4bc755;
+}
+
+.hameln a {
+    color: #ffb444;
+}
+
+.hameln a:hover {
+    color: #b37f31;
+}
+
+.self-links .twitter {
+    text-align: center;
+}
+
+.link-span {
+    margin: 0 0 0 50px;
+}

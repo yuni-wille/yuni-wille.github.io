@@ -1,0 +1,31 @@
+.header {
+    align-items: center;
+}
+
+.header .header-wrapper {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-wrapper h1 {
+    font-size: 30px;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-nav-ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .header-wrapper .header-nav-ul {
+    list-style: none;
+}
+
+.header .header-wrapper .header-nav-item {
+    font-size: 20px;
+    padding: 0px 10px;
+}

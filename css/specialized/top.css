@@ -1,0 +1,32 @@
+.welcome-ja {
+    text-align: center;
+}
+
+.welcome-en {
+    text-align: center;
+}
+
+.welcome-img {
+    display: block;
+    margin: 10px auto;
+}
+
+.about-text {
+    text-indent: 1em;
+}
+
+.log-area {
+    background-color: #1a1818;
+    color: #ffffff;
+    padding: 10px 10px;
+    height: 250px;
+    overflow: hidden scroll;
+}
+
+.log-area.decp::-webkit-scrollbar {
+    width: 0px;
+}
+
+.log-area span {
+    margin: 10px 30px;
+}
