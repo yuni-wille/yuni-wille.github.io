@@ -1,5 +1,5 @@
 $(function() {
-    json = "/json/log/log.json";
+    json = "/json/novel/news.json";
     target = $('.log-area');
     $.getJSON(json, function(data, status) {
         for (var n in data) {
