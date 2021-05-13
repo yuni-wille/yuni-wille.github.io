@@ -1,13 +1,12 @@
-.wrap-tab-content p {
+.wrap-tab-content-2 p {
     margin: 0;
 }
 
-.wrap-tab {
+.wrap-tab-2 {
     overflow: hidden;
-    margin: 0 0 20px 0;
 }
 
-.list-tab {
+.list-tab-2 {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -16,7 +15,7 @@
     border-bottom: 3px solid #792525;
 }
 
-.list-tab>li {
+.list-tab-2>li {
     display: block;
     padding: 0.5em 1em;
     margin: 0 2px;
@@ -27,11 +26,11 @@
     cursor: pointer;
 }
 
-.list-tab .active {
+.list-tab-2 .active-2 {
     background: #792525;
 }
 
-.tab-content {
+.tab-content-2 {
     display: none;
     padding: 1em;
     border-bottom: 1px solid #792525;
@@ -39,6 +38,6 @@
     border-right: 1px solid #792525;
 }
 
-.tab-content.active {
+.tab-content-2.active-2 {
     display: block;
 }
