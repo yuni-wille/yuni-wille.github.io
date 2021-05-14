@@ -1,0 +1,11 @@
+@media only screen and (max-width:600px) {
+    .header .header-wrapper {
+        display: inline-block;
+    }
+    .header h1 {
+        text-align: center;
+    }
+    .header .header-nav {
+        display: inline-block;
+    }
+}
