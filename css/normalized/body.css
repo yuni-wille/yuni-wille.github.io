@@ -5,6 +5,7 @@
 body {
     background-color: #202020;
     color: #ffffff;
+    width: fit-content;
     max-width: 800px;
     margin: auto;
     font-family: 'Shippori Mincho', serif;
