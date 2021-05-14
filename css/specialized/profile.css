@@ -48,6 +48,14 @@
     color: #4bc755;
 }
 
+.kakuyomu a {
+    color: #ffffff;
+}
+
+.kakuyomu a:hover {
+    color: #979797;
+}
+
 .hameln a {
     color: #ffb444;
 }
