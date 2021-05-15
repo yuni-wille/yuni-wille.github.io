@@ -32,6 +32,7 @@ a:hover {
 
 p {
     text-indent: 1em;
+    line-height: 1.2em;
 }
 
 ::-webkit-scrollbar {
