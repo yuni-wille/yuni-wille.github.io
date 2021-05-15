@@ -1,0 +1,6 @@
+novel
+    小説、短編の場合
+    nos-(year)(month)(day)-(about).html
+    小説長編
+    nss-()()()-(SeriesName)(Number).html
+    ex) nos-20219513-test.html
