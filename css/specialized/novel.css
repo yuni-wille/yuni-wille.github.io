@@ -17,3 +17,19 @@ h2 {
 .news span {
     margin: 10px 30px;
 }
+
+.OneShort .Card {
+    background-color: #1a1818;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border: 1px;
+}
+
+.OneShort h3 {
+    text-align: center;
+}
+
+.OneShort .date {
+    text-indent: 0;
+    text-align: center;
+}
