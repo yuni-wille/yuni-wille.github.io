@@ -20,7 +20,7 @@
     <!-- jQuery -->
     <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="/javascript/includist.js"></script>
-    <script src="/javascript/novle-OneShort-loader.js"></script>
+    <script src="/javascript/novle-loader.js"></script>
 </head>
 
 <body>
@@ -29,8 +29,11 @@
     <!-- Main Content -->
     <div class="main-content">
         <h1 class="heading">小説・記事</h1>
+        <div class="linkinpage">
+            <a href="#novel" id="h-novel">小説へ</a><a href="#article" id="h-article">記事へ</a>
+        </div>
         <!-- Tabs -novels&article- -->
-        <h2>小説</h2>
+        <h2 id="novel">小説</h2>
         <div class="wrap-tab">
             <ul id="js-tab" class="list-tab">
                 <li class="active">短編</li>
@@ -41,11 +44,12 @@
                     <div class="OneShort"></div>
                 </div>
                 <div class="tab-content">
+                    <div class="SeriesStory"></div>
                 </div>
             </div>
         </div>
         <script src="/javascript/tab-control.js"></script>
-        <h2>記事</h2>
+        <h2 id="article">記事</h2>
         <div class="wrap-tab-2">
             <ul id="js-tab-2" class="list-tab-2">
                 <li class="active-2">エヴァ</li>

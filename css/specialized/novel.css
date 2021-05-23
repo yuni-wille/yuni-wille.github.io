@@ -18,6 +18,30 @@ h2 {
     margin: 10px 30px;
 }
 
+.tab-content {
+    max-height: 750px;
+}
+
+.tab-content-2 {
+    max-height: 750px;
+}
+
+.linkinpage {
+    text-align: center;
+}
+
+#h-novel {
+    background-color: #220000;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#h-article {
+    background-color: #220000;
+    margin-left: 20px;
+    padding: 5px;
+}
+
 .OneShort .Card {
     background-color: #1a1818;
     margin: 10px auto;
