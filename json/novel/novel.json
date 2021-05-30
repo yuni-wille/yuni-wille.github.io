@@ -1,19 +1,20 @@
 [{
-        "type": "",
-        "title": "揺蕩う棺の中で",
-        "url": "/html/novel/nos-20210516-IaSC.html",
-        "caption": [
-            "『エヴァンゲリオン新劇場版 Q』の冒頭で、シンジが見た夢を妄想しました。単に幸せを願ったシンジが、封印という名のつかの間の安息中に見た、願いはなんだったのか。記念すべきサイト1作目。"
-        ],
-        "date": {
-            "year": 2021,
-            "month": 5,
-            "day": 17
-        },
-        "number": 1
+        "type": "sOneShort",
+        "story": [{
+            "title": "揺蕩う棺の中で",
+            "url": "/html/novel/nos-20210516-IaSC.html",
+            "caption": [
+                "『エヴァンゲリオン新劇場版 Q』の冒頭で、シンジが見た夢を妄想しました。単に幸せを願ったシンジが、封印という名のつかの間の安息中に見た、願いはなんだったのか。記念すべきサイト1作目。"
+            ],
+            "date": {
+                "year": 2021,
+                "month": 5,
+                "day": 17
+            }
+        }]
     },
     {
-        "type": "",
+        "type": "sSeriesStory",
         "SeriesTitle": "Test",
         "episode": [{
             "NumberAndTitle": "第壱話",

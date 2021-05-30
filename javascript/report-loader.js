@@ -5,7 +5,7 @@ $(function() {
         for (var n in data) {
             var text = '<div class=\"Card\">';
             if (data[n].month == "may") {
-                text += "<h3><a href=\"" + data[n].url + "\">" + data[n].title + "</a></h3>";
+                text += "<h3><a href=\"" + data[n].url + "\">" + data[n].title + "</a>" + "　　" + data[n].date + "</h3>";
                 target = $('.may');
             } else {
                 target = $('.old');

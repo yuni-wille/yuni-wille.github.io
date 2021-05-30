@@ -5,9 +5,10 @@ $(function() {
         for (var n in data) {
             var text = '<div class=\"Card\">';
             if (data[n].type == "OneShort") {
-                text += "<h3><a href=\"" + data[n].url + "\">" + data[n].title + "</a></h3>";
-                text += "<p class=\"date\">" + data[n].date.year + "/" + data[n].date.month + "/" + data[n].date.day + "</p>";
-                text += "<p class=\"caption\">" + data[n].caption + "</p>";
+                for (var m in data[n].story) {}
+                text += "<h3><a href=\"" + data[n].story[m].url + "\">" + data[n].story[m].title + "</a></h3>";
+                text += "<p class=\"date\">" + data[n].story[m].date.year + "/" + data[n].story[m].date.month + "/" + data[n].story[m].date.day + "</p>";
+                text += "<p class=\"caption\">" + data[n].story[m].caption + "</p>";
                 target = $('.OneShort');
             } else if (data[n].type == "SeriesStory") {
                 text += "<h3>" + data[n].SeriesTitle + "</h3>";
