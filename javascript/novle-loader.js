@@ -21,6 +21,8 @@ $(function() {
                 target = $('.SeriesStory');
             }
             text += '</div>';
+            if (text == '<div class=\"Card\"></div>')
+                text = null;
             $(target).append(text);
         }
     });

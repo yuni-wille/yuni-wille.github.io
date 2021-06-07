@@ -11,3 +11,7 @@
 .partition {
     border: dashed;
 }
+
+.end {
+    text-align: center;
+}
