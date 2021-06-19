@@ -2,6 +2,28 @@
     text-align: right;
 }
 
+.titlewrap {
+    margin: 16px auto;
+    text-align: center;
+    display: block;
+}
+
+.titlewrap .title {
+    text-align: left;
+    display: inline-block;
+}
+
+.subtitlewrap {
+    margin: 16px auto;
+    text-align: center;
+    display: block;
+}
+
+.subtitlewrap .subtitle {
+    text-align: left;
+    display: inline-block;
+}
+
 .sentence {
     padding-top: 25px;
     padding-bottom: 25px;
