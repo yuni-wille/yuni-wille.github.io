@@ -1,3 +1,8 @@
+.div-pre {
+    white-space: pre-wrap;
+    line-height: 1.4em;
+}
+
 .AuthorAndDate {
     text-align: right;
 }
