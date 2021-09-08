@@ -7,7 +7,7 @@ $(function() {
             text += data[n].date.year + '/' + data[n].date.month + '/' + data[n].date.day;
             text += '<span>' + data[n].date.time + '</span>' + '<span>' + data[n].text + '</span>';
             text += '</p>'
-            if (data[n].date.month != 8)
+            if (data[n].date.month != 9)
                 text = null;
             $(target).append(text);
         }
